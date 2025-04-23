@@ -43,7 +43,7 @@ A gamified “Not‑To‑Do” list that turns resisting bad habits into an RPG�
 
 
 
-<img src="https://github.com/Miichiiii/Not-to-do-Liste/blob/main/Liste.jpg" alt="Girl in a jacket" width="500" height="600">
+<img src="https://github.com/Miichiiii/Not-to-do-Liste/blob/main/Liste.jpg">
 
 
 📈 Roadmap
