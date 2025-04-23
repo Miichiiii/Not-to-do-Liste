@@ -1,0 +1,50 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Not‑To‑Do Liste</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>❌ Not‑To‑Do Liste</h1>
+    <div class="container">
+      <div class="status">
+        Besiegte Aufgaben: <span id="erledigteAnzahl">0</span> /
+        <span id="ziel">10</span>
+      </div>
+      <div class="erfahrungBar">
+        <div class="erfahrungFuell" id="erfahrungFuell"></div>
+      </div>
+
+      <form id="aufgabenFormular">
+        <div class="eingaben">
+          <input
+            type="text"
+            id="aufgabeText"
+            placeholder="👉 Aufgabe hier..."
+            required
+          />
+          <input type="date" id="aufgabeFaelligkeit" required />
+          <select id="aufgabePrioritaet" required>
+            <option value="1">Seehr wichtig</option>
+            <option value="2">Mittelmäßig</option>
+            <option value="3">Gering</option>
+          </select>
+          <input
+            type="number"
+            id="aufgabeDauer"
+            placeholder="⏱ Dauer (h)"
+            min="1"
+            required
+          />
+        </div>
+        <button type="submit" class="hinzufuegen">Hinzufügen</button>
+      </form>
+      <button id="exportKnopf">🗒 Ins CSV exportieren</button>
+      <ul id="aufgabenListe"></ul>
+    </div>
+  </body>
+</html>

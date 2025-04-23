@@ -1,0 +1,48 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Press Start 2P', cursive, Arial, sans-serif;
+  background: #1e1f26;
+  color: #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+h1 {
+  color: #f39c12;
+  text-shadow: 2px 2px #ef1f1f;
+  margin-bottom: 1rem;
+}
+.container {
+  background: #2b2e3a;
+  padding: 1.5rem;
+  border: 2px solid #f39c12;
+  border-radius: 18px;
+  box-shadow: 0 0 15px rgba(243,156,18,0.6);
+  max-width: 900px;
+  width: 100%;
+}
+form { display: grid; grid-template-columns: 1fr auto; gap: .5rem; margin-bottom: 1rem; }
+.eingaben { display: grid; grid-template-columns: 1fr 1fr; gap: .5rem; margin-bottom: .5rem; }
+input, select { background: #555b89c0; color: #e0e0e0; padding: .5rem; border: 2px solid #f7d41170; border-radius: 4px; }
+button { cursor: pointer; font-family: inherit; padding: .5rem 1rem; border: none; }
+button.hinzufuegen { background: #27ae60; color: #fff; }
+button.hinzufuegen:hover { background: #2ecc71; }
+button.entfernen { background: transparent; color: #e74c3c; font-size: 1.2rem; }
+button.entfernen:hover { color: #c0392b; }
+.status { margin-bottom: 1rem; font-size: .9rem; color: #bdc3c7; }
+.erfahrungBar { width: 100%; height: 10px; background: #555; border-radius: 5px; overflow: hidden; margin-bottom: 1rem; }
+.erfahrungFuell { height: 100%; background: #f39c12; width: 0%; transition: width .3s ease; }
+ul { list-style: none; }
+li {
+  background: #3b3f4a;
+  padding: .75rem;
+  margin-bottom: .5rem;
+  border: 1px solid #555;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: .5rem;
+  align-items: center;
+}
+.task-info { font-size: .8rem; color: #ecf0f1; }
