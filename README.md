@@ -9,17 +9,11 @@ A gamified “Not‑To‑Do” list that turns resisting bad habits into an RPG�
 - **Quest Log**  
   Enter distractions you want to avoid and “Defeat” them one by one.  
 
-- **Progress Tracker**  
-  - **Monsters Defeated:** Counts how many tasks you’ve conquered.  
-  - **XP Bar:** Fills up as you complete quests (default goal: 10).  
 
 - **Game‑Themed UI**  
   - Pixel‑style “Press Start 2P” font  
   - Dark RPG‑inspired color palette  
-  - “Defeat” button and monster‑slaying iconography  
-
-- **Persistence**  
-  All quests and progress are saved in `localStorage`—no account required.
+  
 
 ---
 
@@ -45,16 +39,17 @@ A gamified “Not‑To‑Do” list that turns resisting bad habits into an RPG�
 
 <img src="https://github.com/Miichiiii/Not-to-do-Liste/blob/main/Liste.jpg">
 
-
+---
 📈 Roadmap
 ✅ Core game mechanics & persistence
 
-🔜 Dark / light theme toggle
-
-🔜 Customizable goal & XP scaling
-
-🔜 Social sharing of “quest victories”
-
+🔜Dark / light theme toggle
+🔜Customizable goal & XP scaling
+🔜Social sharing of “quest victories”
+🔜Progress Tracker**  
+🔜Monsters Defeated:** Counts how many tasks you’ve conquered.  
+🔜XP Bar:** Fills up as you complete quests (default goal: 10).  
+🔜All quests and progress are saved in `localStorage`—no account required.
 
 🤝 Contributing
 Contributions and suggestions are welcome!
