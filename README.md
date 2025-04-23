@@ -41,6 +41,11 @@ A gamified “Not‑To‑Do” list that turns resisting bad habits into an RPG�
    git clone https://github.com/your‑username/not‑to‑do‑quest.git
    cd not‑to‑do‑quest
 
+
+<img src="[img_girl.jpg](https://github.com/Miichiiii/Not-to-do-Liste/blob/main/Liste.jpg)" alt="Girl in a jacket" width="500" height="600">
+
+
+
 📈 Roadmap
 ✅ Core game mechanics & persistence
 
